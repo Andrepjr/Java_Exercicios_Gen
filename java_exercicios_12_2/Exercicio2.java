@@ -13,70 +13,22 @@ public class Exercicio2 {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		int n1;
-		System.out.println("Digite o primeiro numero: ");
-		n1 = leia.nextInt();
-
-		int n2;
-		System.out.println("Digite o segundo numero: ");
-		n2 = leia.nextInt();
-
-		int n3;
-		System.out.println("Digite o terceiro numero: ");
-		n3 = leia.nextInt();
-		
-		int n4;
-		System.out.println("Digite o quarto numero: ");
-		n4 = leia.nextInt();
-		
-		int n5;
-		System.out.println("Digite o quarto numero: ");
-		n5 = leia.nextInt();
-		
-		int n6;
-		System.out.println("Digite o quarto numero: ");
-		n6 = leia.nextInt();
-		
-		int n7;
-		System.out.println("Digite o quarto numero: ");
-		n7 = leia.nextInt();
-		
-		int n8;
-		System.out.println("Digite o quarto numero: ");
-		n8 = leia.nextInt();
-		
-		int n9;
-		System.out.println("Digite o quarto numero: ");
-		n9 = leia.nextInt();
-		
-		int n10;
-		System.out.println("Digite o quarto numero: ");
-		n10 = leia.nextInt();
-		
-	
-		
+		int numero;
 		
 		Set <Integer> setNumero= new HashSet<Integer>();
 		
-		setNumero.add(n1);
-		setNumero.add(n2);
-		setNumero.add(n3);
-		setNumero.add(n4);
-		setNumero.add(n5);
-		setNumero.add(n6);
-		setNumero.add(n7);
-		setNumero.add(n8);
-		setNumero.add(n9);
-		setNumero.add(n10);
-		
+		for (int i = 0; i < 10; i++ ){
+			System.out.println("Digite um número: ");
+			numero = leia.nextInt();
+			setNumero.add(numero);
+		}
+	
 		Iterator <Integer> isetNumero = setNumero.iterator();
 		System.out.println("Listar dados do set: ");
 		while(isetNumero.hasNext()) {
 			System.out.println(isetNumero.next());
 		}
-		
-		
-		
+				
 
 	}
 
