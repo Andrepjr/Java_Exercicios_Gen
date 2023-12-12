@@ -13,6 +13,7 @@ public class Exercicio1 {
 		
 		ArrayList <String> cores = new ArrayList<String>();
 		
+		//entrada de dados
 		for(int i=0; i < 5; i++){
 			System.out.println("Digite uma cor : ");
 			cor = leia.nextLine();

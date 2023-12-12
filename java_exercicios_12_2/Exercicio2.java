@@ -17,6 +17,7 @@ public class Exercicio2 {
 		
 		Set <Integer> setNumero= new HashSet<Integer>();
 		
+		//entrada de dados
 		for (int i = 0; i < 10; i++ ){
 			System.out.println("Digite um número: ");
 			numero = leia.nextInt();
